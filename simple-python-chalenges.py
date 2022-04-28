@@ -211,4 +211,14 @@ print(greateStudents)
 for i in greateStudents:
     print(i.showInfo())      
 # =============================================================================
-    
+#==============================================================================
+greateStudents=[]
+for i in participantList :
+    if i.finalSecoreCalck() > 90:
+        greateStudents.append(i)
+print(greateStudents)
+
+for i in greateStudents:
+    print(i.showInfo())      
+# =============================================================================
+    name='name'
